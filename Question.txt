@@ -70,3 +70,6 @@ Real-Life Scenarios
 
 	
 
+	TEST QUESTIONS :-
+	//10, 12, 15,23, 25, 41, 46,47, 48, 49, 50
+

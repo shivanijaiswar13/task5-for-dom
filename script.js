@@ -75,8 +75,10 @@
 //10.	Write a function to change the text of all <h2> elements on the page to "Welcome to My Page".
 // function h2elem(){
 //     const head = document.querySelectorAll("h2");
-//     head.textContent = "welcome to my page";
-//     console.log(head);
+//     head.forEach(h2element => {
+//         h2element.textContent = "welcome to my page";
+//     });
+    
 // }
 // h2elem();
 
@@ -168,13 +170,10 @@
 //Adding/Removing Event Listeners
 	// 21.	Add a click event listener to a button with the ID login that logs "Button clicked!" to the console.
 
-        let button = document.querySelector("#login");
-        button.addEventListener("click",() => {
-            console.log("button clicked!");
-        });
-
-
-
+        // let button = document.querySelector("#login");
+        // button.addEventListener("click",() => {
+        //     console.log("button clicked!");
+        // });
 
     //22.	Write a function to remove a mouseover event listener from an element with the class hoverable.
             
@@ -188,21 +187,36 @@
 
     //23.	Add a submit event listener to a form with the ID signup that prevents the default form submission.
 
-
-
-
-
+            // let button = document.querySelector("#signup");
+            // button.addEventListener("click",() =>{
+            //     button.textContent = "submission";
+            // })
 
     //24.	Attach a keydown event listener to the document and log the key pressed to the console.
+
+
 
 
 
     //25.	Write a function that adds a click event listener to all buttons on the page and 
     // changes their background to yellow when clicked.
 
+    // function clicked(){
+    //     let btn = document.querySelectorAll("button");
+    //     btn.forEach(element => {
+    //         element.addEventListener("click", () =>{
+    //             element.style.backgroundColor = "yellow";
+    //         })
+        
+    //     });
+
+    // }
+    // clicked();
+
 
     //Adding/Removing Classes to HTML Elements
 	// 26.	Add a class highlight to all <p> elements with the class paragraph.
+
 
 
     //27.	Write a function to toggle the class active on an element when clicked.
