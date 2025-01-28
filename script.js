@@ -194,7 +194,9 @@
 
     //24.	Attach a keydown event listener to the document and log the key pressed to the console.
 
-
+                // document.addEventListener("keydown", (event)=>{
+                //     console.log(`key pressed : ${event.key}`)
+                // });
 
 
 
@@ -216,57 +218,138 @@
 
     //Adding/Removing Classes to HTML Elements
 	// 26.	Add a class highlight to all <p> elements with the class paragraph.
-
-
+            // let para = document.querySelector("p");
+            // para.classList.add("highlight");
 
     //27.	Write a function to toggle the class active on an element when clicked.
+        // let btns = document.querySelectorAll("#button");
+        // function toggles(){
+        //     btns.forEach(elem => {
+        //         elem.addEventListener("click", ()=>{
+        //             elem.classList.toggle("active");
+        //         })
+                
+        //     });
+        // }
+        // toggles();
 
-    //28.	Remove the class hidden from a <div> with the ID popup.
+
+    // //28.	Remove the class hidden from a <div> with the ID popup.
+    //     let div = document.querySelector("#popup");
+    //     // div.removeAttribute("class");
+    //     div.classList.remove("hidden");
+
+    
 
 
     //29.	Add a class selected to all <li> elements inside a <ul> with the class list.
+            // const li = document.querySelectorAll("ul.list li");
+            // li.forEach(element => {
+            //     element.classList.add('selected');
 
+            // });
     //30.	Write a function that removes the class disabled from a button with the ID submit.
+            // function submission(){
+            //     const btn = document.querySelector("#submit");
+            //     btn.classList.remove("disabled");
+            // }
+            // submission();
 
 
 
     //Adding/Removing IDs to HTML Elements
 	// 31.	Write code to add the ID featured to a <div> with the class hero.
-
-
+            // const div = document.querySelector(".hero");
+            // div.id = "featured";
 
     //32.	Remove the ID old-id from an element and add a new ID new-id to it.
-
+    // const div = document.querySelector("#old-id");
+    
+    // div.id = "new-id";
 
     //33.	Write a function that sets a unique ID to each <li> in an ordered list.
+            // function ordered(){
+            //     const list = document.querySelectorAll("li");
+            //     list.forEach((element, index) => {
+            //         element.id = 'list' + (index+1);
+            //     });
+
+            // }
+            // ordered();
+            
 
     //34.	Add an ID header-main to the first <h1> element on the page.
-
+            // const heading = document.querySelector("h1");
+            // heading.id = "header-main";
+    
     //35.	Remove the ID from an element with the class removable.
+            // const div = document.querySelector(".removable");
+            // div.removeAttribute("id");
 
 
     //Adding/Removing Attributes to HTML Elements
 	// 36.	Add a src attribute with the value "image.jpg" to an <img> element with the ID thumbnail.
+            // const image = document.querySelector("#thumbnail");
+            // image.src ="image1.jpg";
 
 
     //37.	Remove the disabled attribute from a button with the class enable-button.
+            // const button = document.querySelector(".enable-button");
+            // button.removeAttribute("disabled");
+
 
     //38.	Write a function to set a data-user-id attribute with the value "12345" to
     //      a <div> with the class profile.
+            // function profile(){
+            //     const div = document.querySelector(".profile");
+            //     div.setAttribute("data-user-id","12345");
+
+            // }
+            // profile();
+
 
     //39.	Select a <a> tag and add a target="_blank" attribute to open the link in a new tab.
+            // const anchor = document.querySelector("a");
+            // anchor.setAttribute("target","_blank");
 
     //40.	Remove the required attribute from all <input> elements inside a form with the ID registration.
+            // const form = document.querySelectorAll("#registration input");
+            // form.forEach(element => {
+            //     element.removeAttribute("required");
+                
+            // });
 
     //Combining Multiple Topics
+
 // 41.	Write a function to add an event listener to all buttons, and when clicked, toggle the class active on them.
+        // function active(){
+        //     const btn = document.querySelectorAll("button");
+        //     btn.forEach(element => {
+        //         element.addEventListener("click",()=>{
+        //             element.classList.toggle("active");
+        //         })
+        //     });
+        // }
+        // active();
+
 
 //42.	Create a function to select a <div> by ID, add a class selected, change its text to "Hello", 
 //      and set its background color to yellow.
-
-
+        // function properties(){
+        //     const div = document.querySelector("#main");
+        //     div.classList.add("selected");
+        //     div.textContent = "Hello";
+        //     div.style.backgroundColor = "yellow";
+        // }
+        // properties();
+        
 
 //43.	Add a click event listener to all <li> elements inside a <ul> that logs the text content of the clicked item.
+            
+
+
+
+
 	// 44.	Write a function to add a new <p> element inside a <div> with the ID content and set its
     //      text to "New Paragraph".
 
